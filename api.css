@@ -1,0 +1,63 @@
+:root {
+  --clr-bg-light: #fad4d4;
+}
+/* body {
+  height: 500px;
+  background-image: url("img/FB_IMG_15049743146097758.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user {
+  display: flex;
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+}
+element.style {
+  border-radius: 50%;
+}
+.user p {
+  color: rgb(221, 25, 25);
+  margin-inline: auto;
+  font-size: large;
+}
+.color {
+  background-color: rgba(20, 18, 18, 0.6);
+  width: 100%;
+  height: 500vh;
+} */
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-bg-light);
+  font-family: monospace;
+  font-size:large;
+  
+}
+#container {
+  display: flex;
+  gap: 1em;
+  max-width: 514px;
+  flex-wrap: wrap;
+  padding: 2em;
+  justify-content: center;
+}
+
+.user {
+  background-color: rgb(187, 75, 75);
+  color: beige;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.user img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
